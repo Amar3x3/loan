@@ -1,0 +1,18 @@
+# Core ADK and Google Cloud
+google-adk
+google-cloud-aiplatform
+
+# Image Processing
+pillow
+
+# Data Models  
+pydantic
+
+# Async Operations
+aiofiles
+
+# Environment Config
+python-dotenv
+
+# Timezone Support
+tzdata
