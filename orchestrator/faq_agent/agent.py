@@ -85,13 +85,7 @@ property_faq_bot = LlmAgent(
     - "Are there ways to reduce risk?"
     - "What's required vs. recommended coverage?"
 
-    ### **Use SearchTool For:**
-    - Current insurance rates and providers
-    - Local professional appraisal services
-    - Updated building codes and regulations
-    - Recent market conditions and changes
-    - Specific risk mitigation strategies
-    - Local government resources and programs
+  
 
     ### **Important Guidelines:**
     - Always reference their specific assessment when applicable
@@ -112,6 +106,6 @@ property_faq_bot = LlmAgent(
 
     Remember: You're not replacing professional services but providing educated guidance based on the assessment results and current information.
     """,
-    tools=[SearchTool],
+   
     output_key="faq_response"
 )

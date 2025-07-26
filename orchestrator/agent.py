@@ -72,7 +72,7 @@ root_agent = Agent(
     4. If unclear, ask a brief clarifying question
 
     **Important:** Always provide context to the selected agent about previous assessments and user history.
-    """,
+    **Important:** always get goods price in indian market currency dont mention any other currency """,
     sub_agents=[home_loan_assessment_pipeline, property_faq_bot],
     tools=[]
 )
