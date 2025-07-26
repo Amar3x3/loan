@@ -36,12 +36,7 @@ Research potential risks and concerns that could affect property value or loan a
 - Avoid speculation beyond search results
 
 **Output Format:**
-Provide risk assessment:
-- identified_risks: List of confirmed risks with sources
-- potential_concerns: Areas flagged for further investigation
-- risk_severity: Assessment of overall risk level (low/moderate/high)
-- insurance_factors: Issues that may affect insurance availability/cost
-- recommendation: Whether risks warrant additional professional assessment
+no specific output format required, just save it in session state
 
 **Critical Note:** Risk identification based on web search only - not comprehensive professional risk assessment.
 """,

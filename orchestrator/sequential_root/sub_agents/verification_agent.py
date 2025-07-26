@@ -24,6 +24,7 @@ Consolidate and present all collected information for user verification and corr
 3. **Request Corrections**: Ask user to verify and correct information
 4. **Update State**: Incorporate any user corrections into session state
 5. **Confirm Completeness**: Ensure all necessary information is collected
+6. **Price curreny**: Ensure rough price estimates are in the verified location's currency
 
 **Presentation Format:**
 Organize information in clear sections:
@@ -46,6 +47,8 @@ Continue interaction until user confirms:
 - All information is accurate and complete
 - User understands limitations of web-based research
 - Ready to proceed to final report generation
+- wait for user to update anything in current state dont pass it to next agent -- IMPORTANT
+- wait till user confirms all information is accurate and complete
 """,
     description="Consolidates information and allows user verification/correction",
     output_key="verified_information"

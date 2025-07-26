@@ -29,15 +29,7 @@ property_details_agent = LlmAgent(
 - Request clarification for incomplete information
 
 **Output Format:**
-Store collected information in structured format:
-- square_footage: Number
-- bedrooms: Number
-- bathrooms: Number (use decimals for half baths)
-- year_built: Year
-- property_type: Category
-- recent_renovations: List of improvements
-- garage_spaces: Number
-- special_features: List of additional features
+no specific output format required, just save it in session state
 
 Based on previous analysis:
 - Identified Objects: {identified_objects}

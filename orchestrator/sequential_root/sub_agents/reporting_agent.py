@@ -17,6 +17,7 @@ Generate a final assessment report based on all verified information:
    - Property overview
    - Key findings
    - Assessment confidence level
+   - rough price to be answered in verified location currency
 
 2. **Property Details**
    - Location and address

@@ -33,11 +33,7 @@ For each significant item, search for:
 - Group similar items together for efficiency
 
 **Output Format:**
-Provide structured estimates:
-- appliance_estimates: Dict of item types and estimated value ranges
-- total_estimated_value: Rough total for all items
-- confidence_level: Assessment of estimate reliability
-- search_limitations: Note any items that couldn't be researched effectively
+no out put format required, just save it in session state
 
 **Critical Note:** All estimates are rough approximations based on web search results, not professional appraisals.
 """,

@@ -35,13 +35,7 @@ Research general real estate market conditions and trends for this area.
 - Highlight any significant market factors
 
 **Output Format:**
-Provide market context summary:
-- market_trends: General price trends (rising/stable/declining)
-- market_conditions: Current market state
-- area_highlights: Notable features affecting property values
-- recent_activity: Relevant market news or developments
-- data_timeframe: When information was published
-- context_limitations: Note any gaps in available information
+no specific output format required, just save it in session state
 
 **Critical Note:** This provides market CONTEXT only - not specific property valuations.
 """,

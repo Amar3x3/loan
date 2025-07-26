@@ -41,4 +41,4 @@ home_loan_assessment_pipeline = SequentialAgent(
 )
 
 # Required root agent for ADK
-root_agent = home_loan_assessment_pipeline
+
